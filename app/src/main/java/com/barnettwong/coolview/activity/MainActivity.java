@@ -52,6 +52,9 @@ public class MainActivity extends BaseActivity {
                     case 2://不可滑动的viewPager
                         startActivity(NoScrollViewPagerActivity.class);
                         break;
+                    case 3://自己动手实现圆形，圆角图片
+                        startActivity(RoundImageViewActivity.class);
+                        break;
                 }
             }
         });
@@ -62,6 +65,7 @@ public class MainActivity extends BaseActivity {
         viewNames.add("可拓展可收缩的ExpandTextView");
         viewNames.add("高仿ios的底部多类型菜单AlertView");
         viewNames.add("不可滑动的viewPager");
+        viewNames.add("自己动手实现圆形，圆角图片");
     }
 
 

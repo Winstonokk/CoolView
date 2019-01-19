@@ -28,5 +28,10 @@
         <item name="dayNightBackgroundDrawable">@color/night_there_text_color</item>
     </style>
 
+    <declare-styleable name="RoundImageView">
+        <attr name="borderRadius" />
+        <attr name="type" />
+    </declare-styleable>
+
 
 </resources>

@@ -20,6 +20,7 @@
         <activity android:name=".activity.AlertViewActivity"/>
         <activity android:name=".activity.ExpandTextViewActivity"/>
         <activity android:name=".activity.NoScrollViewPagerActivity"/>
+        <activity android:name=".activity.RoundImageViewActivity"/>
     </application>
 
 </manifest>
