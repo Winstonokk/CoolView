@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tab_type">
+        <item>首页</item>
+        <item>看点</item>
+        <item>美女</item>
+        <item>我的</item>
+    </string-array>
+
+</resources>

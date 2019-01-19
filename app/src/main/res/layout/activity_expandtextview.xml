@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".activity.ExpandTextViewActivity">
+
+    <com.barnettwong.view_library.view.ExpandableTextView
+        android:id="@+id/expandable_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="@dimen/item_margin"
+        android:layout_marginTop="@dimen/item_margin"
+        android:layout_marginBottom="@dimen/item_margin"
+        app:contentTextSize="14sp"
+        app:contentTextColor="#000"
+        app:textCollapse="@string/shink"
+        app:showExpandCollapseDrawable="true"
+        app:textExpand="@string/expand"
+        app:maxCollapsedLines="2"
+        android:text="团战人都没来齐，打的什么鬼玩意啊，你们这些人真的不配赢，难怪还是白银段位啊啊啊啊啊啊">
+
+    </com.barnettwong.view_library.view.ExpandableTextView>
+</LinearLayout>
