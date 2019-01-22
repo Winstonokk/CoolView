@@ -27,6 +27,7 @@
             android:theme="@style/AppTheme"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+        <activity android:name=".activity.ShareBottomDialogActivity"/>
     </application>
 
 </manifest>

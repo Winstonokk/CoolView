@@ -58,6 +58,9 @@ public class MainActivity extends BaseActivity {
                     case 4://表情键盘
                         startActivity(EmojiKeyboardActivity.class);
                         break;
+                    case 5://底部分享dialog自定义
+                        startActivity(ShareBottomDialogActivity.class);
+                        break;
                 }
             }
         });
@@ -70,6 +73,7 @@ public class MainActivity extends BaseActivity {
         viewNames.add("不可滑动的viewPager");
         viewNames.add("自己动手实现圆形，圆角图片");
         viewNames.add("表情键盘");
+        viewNames.add("第三方分享底部dialog自定义");
     }
 
 

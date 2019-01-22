@@ -41,4 +41,5 @@ dependencies {
     }
     //工具类开源库
     api 'com.blankj:utilcode:1.19.0'
+    api 'me.shaohui:bottomdialog:1.1.9'
 }
