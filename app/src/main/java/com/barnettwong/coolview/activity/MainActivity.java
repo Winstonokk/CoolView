@@ -55,6 +55,9 @@ public class MainActivity extends BaseActivity {
                     case 3://自己动手实现圆形，圆角图片
                         startActivity(RoundImageViewActivity.class);
                         break;
+                    case 4://表情键盘
+                        startActivity(EmojiKeyboardActivity.class);
+                        break;
                 }
             }
         });
@@ -66,6 +69,7 @@ public class MainActivity extends BaseActivity {
         viewNames.add("高仿ios的底部多类型菜单AlertView");
         viewNames.add("不可滑动的viewPager");
         viewNames.add("自己动手实现圆形，圆角图片");
+        viewNames.add("表情键盘");
     }
 
 

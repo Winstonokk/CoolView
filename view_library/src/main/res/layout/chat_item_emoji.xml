@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rockerhieu.emojicon.EmojiconTextView
+    android:id="@+id/itemEmoji"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="33dp"
+    android:layout_height="33dp"
+    android:layout_margin="2dp"
+    android:adjustViewBounds="true"
+    android:background="@android:color/transparent"
+    android:gravity="center"
+    android:textColor="@android:color/black"
+    android:textSize="25sp"/>

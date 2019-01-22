@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/messageToolBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <Button
+            android:id="@+id/toolbox_btn_send"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="2dp"
+            android:text="发送"
+            android:textColor="#ffffffff"
+            android:textSize="15sp"/>
+
+
+        <CheckBox
+            android:id="@+id/toolbox_btn_face"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/selector_chat_face"
+            android:button="@null"/>
+
+        <CheckBox
+            android:id="@+id/toolbox_btn_more"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@+id/toolbox_btn_face"
+            android:background="@drawable/selector_chat_more"
+            android:button="@null"/>
+
+        <com.rockerhieu.emojicon.EmojiconEditText
+            android:id="@+id/toolbox_et_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/toolbox_btn_send"
+            android:layout_toRightOf="@+id/toolbox_btn_more"
+            android:background="@color/emoji_keyboard_bg_light"
+            android:inputType="textMultiLine"
+            android:maxHeight="60dp"
+            android:minHeight="35dp"
+            android:singleLine="false"
+            android:textSize="18sp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/toolbox_layout_face"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/toolbox_pagers_face"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+        </android.support.v4.view.ViewPager>
+
+        <org.kymjs.chat.widget.PagerSlidingTabStrip
+            android:id="@+id/toolbox_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/toolbox_pagers_face"
+            android:background="#ffffff"
+            android:visibility="visible"
+            app:pstsDividerColor="#a7a5a5"
+            app:pstsIndicatorColor="#ffffff"
+            app:pstsShouldExpand="true"
+            app:pstsTabPaddingLeftRight="14dip"
+            app:pstsUnderlineColor="#ffffff"/>
+    </RelativeLayout>
+</LinearLayout>

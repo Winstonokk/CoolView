@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<!--点击背景-->
+<item android:state_enabled="false">
+    <shape android:shape="rectangle">
+        <corners android:radius="5dp" />
+        <solid android:color="#98D061" />
+    </shape>
+</item>
+<!--默认背景-->
+<item android:state_enabled="true">
+    <shape android:shape="rectangle">
+    <corners android:radius="5dp" />
+    <solid android:color="@color/search_edt_bg" />
+    </shape>
+</item>
+</selector>

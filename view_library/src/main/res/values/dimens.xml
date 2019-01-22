@@ -22,4 +22,7 @@
     <dimen name="height_alert_button">48dp</dimen>
     <!--按钮文字大小-->
     <dimen name="textSize_alert_button">18sp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
 </resources>

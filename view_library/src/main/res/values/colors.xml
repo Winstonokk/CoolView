@@ -38,4 +38,20 @@
     <!--actionsheet模式的取消按钮背景颜色-->
     <color name="bgColor_actionsheet_cancel_nor">#ffffff</color>
 
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+
+    <!--<color name="window_background">#EBEBEB</color>-->
+
+    <color name="colorPrimary">#e35b5a</color>
+
+    <color name="background_tab_pressed">#6633B5E5</color>
+
+    <color name="emoji_keyboard_bg_light">#f6f5f5</color>
+
+    <color name="white">#ffffff</color>
+    <color name="colorOrigin">#d22f22</color>
+    <color name="search_edt_bg">#EEEEEE</color>
+    <color name="color9a9a9a">#9a9a9a</color>
+
 </resources>

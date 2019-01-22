@@ -21,6 +21,12 @@
         <activity android:name=".activity.ExpandTextViewActivity"/>
         <activity android:name=".activity.NoScrollViewPagerActivity"/>
         <activity android:name=".activity.RoundImageViewActivity"/>
+        <activity
+            android:name=".activity.EmojiKeyboardActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
     </application>
 
 </manifest>

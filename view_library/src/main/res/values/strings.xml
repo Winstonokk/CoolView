@@ -3,4 +3,7 @@
 
     <string name="expand">全文</string>
     <string name="shink">收起</string>
+
+    <string name="str_send_comment_hint">说点什么吧~</string>
+    <string name="str_send">发表</string>
 </resources>
