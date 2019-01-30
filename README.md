@@ -15,7 +15,7 @@ app主要截图:
 ![image](https://github.com/wangfeng19930909/CoolView/blob/master/screenshot/8.png)
 
 
-*****控件分类：
+控件分类：
 -------
 
 1.可拓展可收缩的ExpandTextView
