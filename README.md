@@ -1,5 +1,6 @@
 # CoolView
-一些炫酷的自定义控件（Some cool custom controls）
+一些炫酷的自定义控件（Some cool custom controls），逐步完善中...
+
 
 app主要截图:
 -------
@@ -18,10 +19,15 @@ app主要截图:
 -------
 
 1.可拓展可收缩的ExpandTextView
+
 2.高仿ios的底部多类型菜单AlertView
+
 3.不可滑动的viewPager
+
 4.自己动手实现圆形，圆角图片
+
 5.表情键盘
+
 6.第三方分享底部dialog自定义
 
 
