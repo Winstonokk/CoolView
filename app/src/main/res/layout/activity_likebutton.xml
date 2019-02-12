@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <com.barnettwong.view_library.view.likebutton.LikeButton
+        android:id="@+id/heart_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:circle_end_color="@android:color/holo_red_light"
+        app:circle_start_color="@android:color/holo_red_dark"
+        app:dots_primary_color="@android:color/holo_orange_light"
+        app:dots_secondary_color="@android:color/holo_orange_dark"
+        app:icon_size="10dp"
+
+        app:like_drawable="@drawable/heart_on"
+        app:unlike_drawable="@drawable/heart_off">
+
+    </com.barnettwong.view_library.view.likebutton.LikeButton>
+
+    <com.barnettwong.view_library.view.likebutton.LikeButton
+        android:id="@+id/thumb_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:circle_end_color="@android:color/holo_blue_dark"
+        app:circle_start_color="@android:color/holo_blue_bright"
+        app:dots_primary_color="@android:color/holo_blue_light"
+        app:dots_secondary_color="@android:color/holo_blue_dark"
+        app:icon_size="15dp"
+        app:like_drawable="@drawable/thumb_on"
+        app:unlike_drawable="@drawable/thumb_off"></com.barnettwong.view_library.view.likebutton.LikeButton>
+
+    <Button
+        android:id="@+id/btn_text_likebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="普通按钮" />
+</LinearLayout>
