@@ -29,6 +29,7 @@
             android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
         <activity android:name=".activity.ShareBottomDialogActivity"/>
         <activity android:name=".activity.LikeButtonActivity"/>
+        <activity android:name=".activity.LoadingDialogActivity"/>
     </application>
 
 </manifest>

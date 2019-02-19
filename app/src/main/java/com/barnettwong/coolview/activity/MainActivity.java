@@ -64,6 +64,9 @@ public class MainActivity extends BaseActivity {
                     case 6://点赞
                         startActivity(LikeButtonActivity.class);
                         break;
+                    case 7://加载框
+                        startActivity(LoadingDialogActivity.class);
+                        break;
                 }
             }
         });
@@ -78,6 +81,7 @@ public class MainActivity extends BaseActivity {
         viewNames.add("表情键盘");
         viewNames.add("第三方分享底部dialog自定义");
         viewNames.add("点赞效果");
+        viewNames.add("加载框自定义");
     }
 
 

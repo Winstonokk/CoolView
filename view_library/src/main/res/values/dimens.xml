@@ -25,6 +25,8 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
 
+    <dimen name="margin_10">10dp</dimen>
     <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_130">130dp</dimen>
 
 </resources>
