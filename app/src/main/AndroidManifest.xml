@@ -30,6 +30,7 @@
         <activity android:name=".activity.ShareBottomDialogActivity"/>
         <activity android:name=".activity.LikeButtonActivity"/>
         <activity android:name=".activity.LoadingDialogActivity"/>
+        <activity android:name=".activity.WaterMarkActivity"/>
     </application>
 
 </manifest>

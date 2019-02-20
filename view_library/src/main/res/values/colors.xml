@@ -54,4 +54,6 @@
     <color name="search_edt_bg">#EEEEEE</color>
     <color name="color9a9a9a">#9a9a9a</color>
 
+    <color name="water_mark_color">#EAEAEA</color>
+
 </resources>

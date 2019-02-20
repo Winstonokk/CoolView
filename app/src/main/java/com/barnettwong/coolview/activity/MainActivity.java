@@ -67,6 +67,9 @@ public class MainActivity extends BaseActivity {
                     case 7://加载框
                         startActivity(LoadingDialogActivity.class);
                         break;
+                    case 8://水印
+                        startActivity(WaterMarkActivity.class);
+                        break;
                 }
             }
         });
@@ -82,6 +85,7 @@ public class MainActivity extends BaseActivity {
         viewNames.add("第三方分享底部dialog自定义");
         viewNames.add("点赞效果");
         viewNames.add("加载框自定义");
+        viewNames.add("水印背景生成");
     }
 
 
