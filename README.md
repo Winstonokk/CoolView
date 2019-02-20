@@ -2,17 +2,10 @@
 一些炫酷的自定义控件（Some cool custom controls），逐步完善中...
 
 
-app主要截图:
+app功能演示:
 -------
-
+![image](https://github.com/wangfeng19930909/CoolView/blob/master/screenshot/video.gif)
 ![image](https://github.com/wangfeng19930909/CoolView/blob/master/screenshot/1.png)
-![image](https://github.com/wangfeng19930909/CoolView/blob/master/screenshot/2.png)
-![image](https://github.com/wangfeng19930909/CoolView/blob/master/screenshot/3.png)
-![image](https://github.com/wangfeng19930909/CoolView/blob/master/screenshot/4.png)
-![image](https://github.com/wangfeng19930909/CoolView/blob/master/screenshot/5.png)
-![image](https://github.com/wangfeng19930909/CoolView/blob/master/screenshot/6.png)
-![image](https://github.com/wangfeng19930909/CoolView/blob/master/screenshot/7.png)
-![image](https://github.com/wangfeng19930909/CoolView/blob/master/screenshot/8.png)
 
 
 控件分类：
@@ -30,11 +23,18 @@ app主要截图:
 
 6.第三方分享底部dialog自定义
 
+7.点赞效果
+
+8.加载框自定义
+
+9.水印背景生成
+
+10.自定义switchButton开关按钮
+
 
 本人会坚持在这个项目上实践最新的技术，也会争取拓展更多的阅读内容，欢迎各位关注！ 注意：本项目还在测试阶段，发现 bug 或有好的建议欢迎issue、email(wangfengkxhp@foxmail.com),如果感觉对你有帮助也欢迎点个 star、fork，本项目仅做学习交流使用，请勿用于其他用途,如若发现资源存在侵权，请第一时间联系删除。
 
  
-
 
 
 MIT License
