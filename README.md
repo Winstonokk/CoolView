@@ -5,7 +5,6 @@
 app功能演示:
 -------
 ![image](https://github.com/wangfeng19930909/CoolView/blob/master/screenshot/video.gif)
-![image](https://github.com/wangfeng19930909/CoolView/blob/master/screenshot/1.png)
 
 
 控件分类：
