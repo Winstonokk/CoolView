@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.barnettwong.view_library.view.MySwitchButton
+        android:id="@+id/myswitch"
+        android:layout_width="@dimen/margin_51"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="@dimen/margin_15"
+        android:paddingTop="@dimen/margin_4"
+        android:paddingRight="@dimen/margin_15"
+        android:paddingBottom="@dimen/margin_4"
+        app:kswAnimationDuration="300"
+        app:kswBackDrawable="@drawable/switch_button_back_drawable"
+        app:kswBackMeasureRatio="1.4"
+        app:kswThumbDrawable="@drawable/switch_button_thumb"
+        app:kswThumbMarginBottom="-8dp"
+        app:kswThumbMarginLeft="-5dp"
+        app:kswThumbMarginRight="-5dp"
+        app:kswThumbMarginTop="-2.5dp" />
+
+    <com.barnettwong.view_library.view.MyListItemSwitchButton
+        android:id="@+id/listitem_switch_need_msg_send"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_48"
+        android:layout_marginTop="@dimen/margin_20"
+        app:swb_list_item_title="@string/app_name"
+        />
+</LinearLayout>

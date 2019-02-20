@@ -1,13 +1,11 @@
 package com.barnettwong.coolview.activity;
 
-import android.os.Bundle;
 import android.widget.LinearLayout;
 
 import com.barnettwong.coolview.R;
 import com.barnettwong.view_library.view.WaterMark;
 
 import butterknife.BindView;
-import butterknife.ButterKnife;
 
 /**
  * Created by wang on 2019/1/18 14:43

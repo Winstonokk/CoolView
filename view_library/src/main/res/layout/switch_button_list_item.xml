@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rce_selector_item_hover"
+    android:clickable="true"
+    android:paddingLeft="@dimen/margin_14"
+    >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="TextView"
+        android:textColor="@color/color_normal_text"
+        android:textSize="@dimen/font_16" />
+
+    <com.barnettwong.view_library.view.MySwitchButton
+        android:id="@+id/switch_button"
+        android:layout_width="@dimen/margin_51"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        app:kswBackDrawable="@drawable/switch_button_back_drawable"
+        app:kswThumbDrawable="@drawable/switch_button_thumb"
+        app:kswAnimationDuration="300"
+        app:kswBackMeasureRatio="1.4"
+        app:kswThumbMarginBottom="-8dp"
+        app:kswThumbMarginLeft="-5dp"
+        app:kswThumbMarginRight="-5dp"
+        app:kswThumbMarginTop="-2.5dp"
+        android:paddingLeft="@dimen/margin_15"
+        android:paddingRight="@dimen/margin_15"
+        android:paddingTop="@dimen/margin_4"
+        android:paddingBottom="@dimen/margin_4"/>
+</RelativeLayout>

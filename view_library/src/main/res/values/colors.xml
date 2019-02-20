@@ -55,5 +55,7 @@
     <color name="color9a9a9a">#9a9a9a</color>
 
     <color name="water_mark_color">#EAEAEA</color>
+    <color name="color_list_item_hover">#DFDFDD</color>
+    <color name="color_normal_text">#262626</color>
 
 </resources>
