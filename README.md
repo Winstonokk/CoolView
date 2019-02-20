@@ -31,6 +31,44 @@ app功能演示:
 10.自定义switchButton开关按钮
 
 
+使用步骤
+=================================== 
+
+step1:
+-------
+
+在gradle中直接引用
+
+在你项目根目录的build.gradle中添加
+
+	allprojects {
+	
+		repositories {
+		
+		...
+		
+		maven { url 'https://jitpack.io' }
+		
+		}
+		
+	}
+   
+step2:
+-------
+
+在module下的build.gradle中添加：
+
+		dependencies {
+		
+	        	implementation 'com.github.wangfeng19930909:CoolView:1.0.0'
+		
+		}
+		
+step3:
+-------
+
+按照demo工程进行快捷的使用
+
 本人会坚持在这个项目上实践最新的技术，也会争取拓展更多的阅读内容，欢迎各位关注！ 注意：本项目还在测试阶段，发现 bug 或有好的建议欢迎issue、email(wangfengkxhp@foxmail.com),如果感觉对你有帮助也欢迎点个 star、fork，本项目仅做学习交流使用，请勿用于其他用途,如若发现资源存在侵权，请第一时间联系删除。
 
  
